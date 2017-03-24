@@ -1,0 +1,18 @@
+{% load static %}
+{{ result }}
+
+<link rel="stylesheet" type="text/css" href="{% static 'user_side/css/base.css' %}" />
+<ul>
+	<li>
+		<a href="#">test</a>
+	</li>
+</ul>
+
+<form action="map_data/" method="post">
+  {% csrf_token %}
+	lang:<input type="text"  name="lng">
+	lat:<input type="text"  name="lat">
+	<input type="submit" name="submit">
+</form>
+
+<script type="text/javascript" src="{% static 'user_side/js/base.js' %}"></script>
