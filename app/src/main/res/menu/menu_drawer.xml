@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item
+    android:id="@+id/notification"
+    android:title="Notification"
+    />
+<item
+    android:title="My Uploads"
+    android:id="@+id/my_uploads"
+
+    />
+<item
+    android:id="@+id/my_account"
+    android:title="My Account"/>
+
+</menu>

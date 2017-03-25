@@ -33,9 +33,7 @@ GOOGLE_MAPS_API_KEY="AIzaSyA64hUpNBXBL8udw5Os-GoOqSFOUom2YHE"
 
 
 INSTALLED_APPS = [
-    'user_side',
-    'auto_side',
-    'server_side',
+    'user_side',    
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',

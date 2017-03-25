@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\ravi1\Desktop\bhaiya_auto2\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.3.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\ravi1\Desktop\bhaiya_auto2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-25.3.0_42bbbb33b8297f6038d00a983d1928d2445c8d59\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ravi1\Desktop\bhaiya_auto2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\10.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c7626a9aa507bbbdc16188bc9a9f9bf3370c1ddd">
+        <dex dex="C:\Users\ravi1\Desktop\bhaiya_auto2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-maps-10.2.1_eca1140cc8a22e1c97d6077278eb65beb5b5f592\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ravi1\Desktop\bhaiya_auto2\app\build\intermediates\exploded-aar\com.github.wangjiegulu\AndroidInject\1.0.5\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8e876c1a156a79caa35250fb66ce1a4c566d6c4d">
+        <dex dex="C:\Users\ravi1\Desktop\bhaiya_auto2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.github.wangjiegulu-AndroidInject-1.0.5_b5af43756c9066bec56a3dcfd235d4bf0b0b0c07\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ravi1\Desktop\bhaiya_auto2\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.3.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="5cc5ef8347a6bafa14556cbd35230aa9b3431bb0">
+        <dex dex="C:\Users\ravi1\Desktop\bhaiya_auto2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-25.3.0_7df1f0cbf15e266c48e277765ac4b05eb88f8ded\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ravi1\Desktop\bhaiya_auto2\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.3.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="518768f3200963fbfec652f498da2c9d39245234">
+        <dex dex="C:\Users\ravi1\Desktop\bhaiya_auto2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-25.3.0_57fd32684437cf4b67e29db25747f6ae1fb01c2c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ravi1\Desktop\bhaiya_auto2\app\build\intermediates\exploded-aar\com.android.support\transition\25.3.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="fbb206f7a119f66ce171d95aae1225a5b209a8b7">
+        <dex dex="C:\Users\ravi1\Desktop\bhaiya_auto2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-transition-25.3.0_5673b91ceeb581d9a88f905e6890b766a18ea9f6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ravi1\Desktop\bhaiya_auto2\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.3.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4b746ef0fd46acb5aaf3d9ab9a4cec22c28d3211">
+        <dex dex="C:\Users\ravi1\Desktop\bhaiya_auto2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-25.3.0_7d9bfdab430a69e1581ba0a29c56015e1ab93f0c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ravi1\Desktop\bhaiya_auto2\app\build\intermediates\exploded-aar\com.android.support\multidex\1.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="78ea232052df889856dcb7b7b542707c89bb3bfb">
+        <dex dex="C:\Users\ravi1\Desktop\bhaiya_auto2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-multidex-1.0.1_2a8ef47327034c53c0422c522ff43e6ac7d82b08\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ravi1\.gradle\caches\modules-2\files-2.1\org.apache.httpcomponents\httpcore\4.4.4\b31526a230871fbe285fbcbe2813f9c0839ae9b0\httpcore-4.4.4.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b31526a230871fbe285fbcbe2813f9c0839ae9b0">
+        <dex dex="C:\Users\ravi1\Desktop\bhaiya_auto2\app\build\intermediates\transforms\dex\debug\folders\1000\10\httpcore-4.4.4_f22d14dc6c27b2fee78d7ac22fd11818dc976f84\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ravi1\.gradle\caches\modules-2\files-2.1\com.github.bumptech.glide\glide\3.7.0\9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4\glide-3.7.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4">
+        <dex dex="C:\Users\ravi1\Desktop\bhaiya_auto2\app\build\intermediates\transforms\dex\debug\folders\1000\10\glide-3.7.0_61575c7e9a44cce36f2adfda8be22fd70ecfe2b6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ravi1\Desktop\bhaiya_auto2\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.3.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="70f23cb87278f89aa51e6f57e8f0fd5266572d95">
+        <dex dex="C:\Users\ravi1\Desktop\bhaiya_auto2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-25.3.0_4f32928980a319a660f87a121382e06b474c77ac\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ravi1\Desktop\bhaiya_auto2\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\25.3.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a3e61044038fb54cddf6b8dc79f41d2b57f42caf">
+        <dex dex="C:\Users\ravi1\Desktop\bhaiya_auto2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-25.3.0_d446345b068a531c9fc4d9972dfc0f4c6d18ce3e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ravi1\Desktop\bhaiya_auto2\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6a81eda4f45607e5aaee463cf78b3e7daa2fa7ec">
+        <dex dex="C:\Users\ravi1\Desktop\bhaiya_auto2\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_88eaff8e21ce0614b2afc730fcfcdd367dbca8c7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ravi1\.gradle\caches\modules-2\files-2.1\com.nineoldandroids\library\2.4.0\e9b63380f3a242dbdbf103a2355ad7e43bad17cb\library-2.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="C:\Users\ravi1\Desktop\bhaiya_auto2\app\build\intermediates\transforms\dex\debug\folders\1000\10\library-2.4.0_e769801f2c7c07cdbf05a0836f6d0fad8532bc0d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ravi1\Desktop\bhaiya_auto2\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1108575c7dc7b7f5b378b3290ac90de81a9b8830">
+        <dex dex="C:\Users\ravi1\Desktop\bhaiya_auto2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-cardview-v7-25.0.1_53a08d94c2fa7d40e2bc1bb7b7f85fc860644b85\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ravi1\.gradle\caches\modules-2\files-2.1\org.apache.httpcomponents\httpmime\4.3\5b0002c5fb66867ca919be0fbd86de1cfaf76da7\httpmime-4.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="5b0002c5fb66867ca919be0fbd86de1cfaf76da7">
+        <dex dex="C:\Users\ravi1\Desktop\bhaiya_auto2\app\build\intermediates\transforms\dex\debug\folders\1000\10\httpmime-4.3_894217f8f5ad58be48fb351f0546d490e4c2631b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ravi1\Desktop\bhaiya_auto2\app\build\intermediates\exploded-aar\com.github.asyl.animation\arcanimator\1.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="31dbe885ef6a9d6a88412750e85784f60b95cb90">
+        <dex dex="C:\Users\ravi1\Desktop\bhaiya_auto2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.github.asyl.animation-arcanimator-1.0.0_697010986f5595413930a9c041904532809fc705\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ravi1\Desktop\bhaiya_auto2\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.3.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="425c7b17887e5c3f8cbdf67ba171bc246f29b42c">
+        <dex dex="C:\Users\ravi1\Desktop\bhaiya_auto2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-25.3.0_aa8c26ad1ab78f52bea14eca57cfd564bd43a9ee\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ravi1\Desktop\bhaiya_auto2\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.3.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="93c1199fcb0a34b980e6fff8350daff62e696ec2">
+        <dex dex="C:\Users\ravi1\Desktop\bhaiya_auto2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-25.3.0_dd90f05905ec0720149928d328de5d6393500420\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ravi1\Desktop\bhaiya_auto2\app\build\intermediates\exploded-aar\com.yarolegovich\lovely-dialog\1.0.7\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="5da855b24ea485dde60d5e047f3635085e27bbf7">
+        <dex dex="C:\Users\ravi1\Desktop\bhaiya_auto2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.yarolegovich-lovely-dialog-1.0.7_9ae7c894215a6e354f19d8d4e60a29a8ab1e54f4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ravi1\Desktop\bhaiya_auto2\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.3.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="93c10d68ab5ea070f15782ae6d3a28d1f1d8f45e">
+        <dex dex="C:\Users\ravi1\Desktop\bhaiya_auto2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-25.3.0_bffe1bc607748501468fbf73576450ce45dabd50\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ravi1\Desktop\bhaiya_auto2\app\build\intermediates\exploded-aar\com.wang.avi\library\2.1.3\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e699699fae0092703de1d02b217f43803d0f7e0a">
+        <dex dex="C:\Users\ravi1\Desktop\bhaiya_auto2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.wang.avi-library-2.1.3_beda9a386b0fcc1b80fab32a40804de9b75f59f8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ravi1\Desktop\bhaiya_auto2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\10.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6003d64df88a6ce5e961fa2bad7f1b9b97689ac1">
+        <dex dex="C:\Users\ravi1\Desktop\bhaiya_auto2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-tasks-10.2.1_3214e88864956c24035d3c1b00024073d6c8a90d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ravi1\Desktop\bhaiya_auto2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\10.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="19696dc358ac668e341f28c41e3387d61ccdb81d">
+        <dex dex="C:\Users\ravi1\Desktop\bhaiya_auto2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-base-10.2.1_4b6cb981a7d758ff30063fce22fc72540315c108\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ravi1\Desktop\bhaiya_auto2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\10.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="bb115a110992b254f767f337da233071f6f940b8">
+        <dex dex="C:\Users\ravi1\Desktop\bhaiya_auto2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-location-10.2.1_084f06cfa6cd16923f4f821734f9a83e1e46539c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ravi1\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.3.0\support-annotations-25.3.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="dd84903d2e1af25a6081ef9038ad863cb14ca3a0">
+        <dex dex="C:\Users\ravi1\Desktop\bhaiya_auto2\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.3.0_0be37b3d4ef202e58f735e1827186dbdc03835c7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ravi1\Desktop\bhaiya_auto2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\10.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="bdcc2a9572f18b8c90a3a157cab6cdfc97c6c736">
+        <dex dex="C:\Users\ravi1\Desktop\bhaiya_auto2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-basement-10.2.1_144ec44e46849d48dc9c97ba2cdb0699c8df8dbe\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ravi1\Desktop\bhaiya_auto2\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d95d99d00b871018091d98665658ac95abd26ebd">
+        <dex dex="C:\Users\ravi1\Desktop\bhaiya_auto2\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_72500f5402aabfdb1c579128f57b2e25241671b9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ravi1\Desktop\bhaiya_auto2\app\build\intermediates\exploded-aar\com.github.wangjiegulu\ShadowViewHelper\1.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="11ed58426cd0cabbd60688c856a65248adefabbc">
+        <dex dex="C:\Users\ravi1\Desktop\bhaiya_auto2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.github.wangjiegulu-ShadowViewHelper-1.0.0_c5bcf2ed9de64d360d62efd040fe4e3fffeb8237\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ravi1\Desktop\bhaiya_auto2\app\build\intermediates\exploded-aar\com.android.support\design\25.3.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="9ab787a20aae245b5b3651ae0b9c38459eb37715">
+        <dex dex="C:\Users\ravi1\Desktop\bhaiya_auto2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-25.3.0_8bb58dc89c8924b17d958aedd2b2603afe601db5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ravi1\Desktop\bhaiya_auto2\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.3.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d6a04527c17597019dad82777c5094a3d60d1c33">
+        <dex dex="C:\Users\ravi1\Desktop\bhaiya_auto2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-25.3.0_3a2653d6a68fce2d95549a919c86cca527587802\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ravi1\.gradle\caches\modules-2\files-2.1\com.jakewharton\butterknife\6.1.0\63735f48b82bcd24cdd33821342428252eb1ca5a\butterknife-6.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="63735f48b82bcd24cdd33821342428252eb1ca5a">
+        <dex dex="C:\Users\ravi1\Desktop\bhaiya_auto2\app\build\intermediates\transforms\dex\debug\folders\1000\10\butterknife-6.1.0_a801f6bd06bdf6bedccbdbe27b354ed7ae65a268\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ravi1\Desktop\bhaiya_auto2\app\build\intermediates\exploded-aar\com.github.wangjiegulu\AndroidBucket\1.0.4\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a2c9ce94bbc3c8bc1834c596dc5c8eca8fc04166">
+        <dex dex="C:\Users\ravi1\Desktop\bhaiya_auto2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.github.wangjiegulu-AndroidBucket-1.0.4_992184c84c9210223babce75fa577f1ce5e60966\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ravi1\Desktop\bhaiya_auto2\app\build\intermediates\exploded-aar\com.github.andyxialm\ColorDialog\1.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e6518896b6aebba98c81375ce73eca7d5d168bb6">
+        <dex dex="C:\Users\ravi1\Desktop\bhaiya_auto2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.github.andyxialm-ColorDialog-1.0.0_726444d06cdfea43f2cf5927bde3e9fd92b20ae2\classes.dex" />
+    </item>
+
+</items>

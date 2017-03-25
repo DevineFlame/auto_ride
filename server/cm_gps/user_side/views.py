@@ -6,6 +6,7 @@ from .import misc_functions
 from django.views.decorators.csrf import csrf_exempt
 from django.http import JsonResponse
 from decimal import Decimal
+from datetime import datetime
 
 
 # Create your views here.
@@ -81,7 +82,7 @@ def auto_in_range(request):
     min_lng=lng-0.056430
     #misc_functions.generate_lat_lang(lat,lng)
 
-    sql="select * from test where lat < %s && lat > %s && lng<%s && lng >%s " %(max_lat,min_lat,max_lng,min_lng)
+    sql="select * from test where lat < %s && lat > %s && lng<%s && lng >%s  limit 1,10" %(max_lat,min_lat,max_lng,min_lng)
     DB_NAME="cm_gps"
     res=sql_functions.query(DB_NAME, sql)
     
@@ -90,12 +91,6 @@ def auto_in_range(request):
     
 
    
-
-def test(request):
-    misc_functions.generate_lat_lang(25.481241,81.856597)
-    return HttpResponse("done")
-    
-
 
 
 
@@ -175,11 +170,32 @@ def login(request):
         msg["error"]="success"  
     else:
         msg["error"]="failed"
+    
+
+    return  JsonResponse({'loginStatus':msg})
 
 
-    return  JsonResponse({'msg':msg})
+
+@csrf_exempt
+def get_notifications(request):       #notifications
+    user_type=request.POST.get('type')
+    if user_type =='driver':
+        driver_name=request.POST['username']
+        sql="select * from notifications where driver=\'%s\'"%(driver_name)
+        print(sql)
+        res=sql_functions.query("cm_gps",sql)
+        print(res)
+        return JsonResponse({'result':res})
+    if user_type =='passenger':
+        passenger_name=request.POST['username']
+        sql="select * from notifications where passenger=\'%s\'"%(passenger_name)
+        print(sql)
+        res=sql_functions.query("cm_gps",sql)
+        return JsonResponse({'result':res})
+       
 
 
+@csrf_exempt
 def logout(request):
     try:
         del request.session['username']
@@ -189,6 +205,7 @@ def logout(request):
 
 
 
+@csrf_exempt
 def change_status(request):
     status=request.POST.get('status')
     username=request.session['username']
@@ -200,27 +217,45 @@ def change_status(request):
     sql_functions.udi_query("users",sql)
     pass
 
+@csrf_exempt
+def update_notifications(request):
+    driver_name=request.POST.get('driver')
+    passenger=request.POST.get('user')
+    price=request.POST.get('price')
+    size=request.POST.get('size')
+    dest=request.POST.get('dest')
+    p_lat=request.POST.get('p_lat')
+    p_lng=request.POST.get('p_lng')
+    dr_lat=request.POST.get('dr_lat')
+    dr_lng=request.POST.get('dr_lng')
+    init="passenger"
+    status=1;
+    date=datetime.now();
+
+    sql="insert into notifications values(\'%s\',\'%s\',\'%s\',\'%s\',\'%s\',\'%s\',\'%s\',\'%s\',\'%s\',\'%s\',\'%s\',\'%s\')"\
+    %(driver_name,passenger,price,size,dest,p_lat,p_lng,dr_lat,dr_lng,init,date)
+   
+    sql="insert into reserve values(\'%s\',\'%s\',\'%s\')"\
+    %(driver_name,passenger,status)
+    print(sql)
+   
 
 
-def user_notify_driver(request):
-    
-    pass
-
-def driver_notify_user(request):
-    pass
 
 
-def notifications(request):
-    user_type=request.POST['type']
-    
+def test(request):
+    misc_functions.generate_lat_lang(25.481241,81.856597)
+    return HttpResponse("done")
+@csrf_exempt  
+def driver_reply(request):
+    print("hello")
+    passenger=request.POST.get('passenger')
+    driver_name=request.POST.get('driver')
+    status=request.POST.get('status')
+    misc_functions.change_driver_status(driver_name,status)
+    misc_functions.notify_passenger(driver_name,status,passenger)
+    return HttpResponse("status changed")
 
-    if user_type =='driver':
-        driver_name=request.POST['username']
-        sql="select * from notifications where driver=\'%s\'"%(driver_name)
-        res=sql_functions.query("notifications",sql)
-        return JsonResponse({'result':res})
-    if user_type =='passenger':
-        passenger_name=request.POST['username']
-        sql="select * from notifications where passenger=\'%s\'"%(passenger_name)
-        res=sql_functions.query("notifications",sql)
-        return JsonResponse({'result':res})
+
+
+

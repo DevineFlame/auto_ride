@@ -1,9 +1,31 @@
+from __future__ import division
 from math import radians, cos, sin, asin, sqrt,pi
 import random
 from . import sql_functions
+from datetime import datetime
+# Testing simlation of generating random points 
+
+import numpy as np
 
 
-def haversine(lon1, lat1, lon2, lat2):
+def create_random_point(x0,y0,distance):
+    """
+            Utility method for simulation of the points
+    """   
+    r = distance/ 111300
+    u = np.random.uniform(0,1)
+    v = np.random.uniform(0,1)
+    w = r * np.sqrt(u)
+    t = 2 * np.pi * v
+    x = w * np.cos(t)
+    x1 = x / np.cos(y0)
+    y = w * np.sin(t)
+    return (x0+x1, y0 +y)
+
+
+
+
+def haversines(lon1, lat1, lon2, lat2):
     """
     Calculate the great circle distance between two points 
     on the earth (specified in decimal degrees)
@@ -26,11 +48,9 @@ def generate_lat_lang(i_lat,i_lng):
     M=2
     val=random.uniform(0.002,0.5)
     DB_NAME="cm_gps"
-    for x in xrange(-M,+M):
-        for y in xrange(-M,+M):
-            m=x*val+i_lat
-            n=y*val+i_lng
+    for k in (1,20):
             #m=random.uniform(i_lat)
+            m,n=create_random_point(i,j,100)
             sql="insert into test (lat,lng,type) values(%s,%s,\'%s\' )"%(str(m),str(n),"auto")
             print(sql)
             sql_functions.udi_query(DB_NAME,sql)
@@ -54,3 +74,17 @@ def take_log(request):
 
 
 
+def get_notification_id(driver,passenger):
+    notification_id=driver+"~"+passenger+"~"+str(datetime.now())
+    return notification_id
+
+def change_driver_status(driver,status):
+    
+    sql="update reserve set status=\'%s\' where driver=\'%s\'"%(status,driver)
+    print(sql)
+    sql_functions.query('cm_gps',sql)
+
+
+def notify_passenger(driver,status,passenger):
+    
+    pass 

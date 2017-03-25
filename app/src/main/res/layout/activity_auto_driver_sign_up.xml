@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ravi1.bhaiya_auto.AutoDriverSignUp">
+    <LinearLayout
+
+        
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/button_color"
+        android:orientation="vertical"
+        >
+        <LinearLayout android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="30dp"
+            android:orientation="vertical"
+            >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/coollogo"
+                android:layout_gravity="center"/>
+            <EditText android:layout_width="fill_parent"
+                android:id="@+id/usernameField"
+                android:layout_height="40dp"
+                android:hint="username"
+                android:textColor="@color/black"
+                android:background="@color/light_primary"
+                android:paddingLeft="5dp"
+                android:layout_marginTop="30dp"/>
+
+            <EditText android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:id="@+id/nameField"
+                android:hint="name"
+                android:textColor="@color/black"
+                android:background="@color/light_primary"
+                android:paddingLeft="5dp"
+                android:layout_marginTop="15dp"/>
+            <EditText android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:id="@+id/emailField"
+                android:hint="email"
+                android:background="@color/light_primary"
+                android:textColor="@color/black"
+                android:paddingLeft="5dp"
+                android:layout_marginTop="15dp"/>
+            <EditText android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:id="@+id/passwordField"
+                android:textColor="@color/black"
+                android:hint="password"
+                android:background="@color/light_primary"
+                android:paddingLeft="5dp"
+                android:layout_marginTop="15dp"
+                android:inputType="textPassword"/>
+            <EditText android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:id="@+id/confirmPasswordField"
+                android:textColor="@color/black"
+                android:hint="confirm password"
+                android:background="@color/light_primary"
+                android:paddingLeft="5dp"
+                android:layout_marginTop="15dp"
+                android:inputType="textPassword"/>
+            <EditText android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:id="@+id/mobileField"
+                android:textColor="@color/black"
+                android:hint="mobile"
+                android:background="@color/light_primary"
+                android:paddingLeft="5dp"
+                android:layout_marginTop="15dp"/>
+            <EditText android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:id="@+id/addressField"
+                android:hint="address"
+                android:textColor="@color/black"
+                android:background="@color/light_primary"
+                android:paddingLeft="5dp"
+                android:layout_marginTop="15dp"/>
+
+            <CheckBox android:id="@+id/checkbox_auto"
+                android:layout_width="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_height="wrap_content"
+                android:text="Auto"
+                android:textColor="@color/white"
+                android:onClick="onCheckboxClicked"/>
+
+            <CheckBox
+                android:id="@+id/checkbox_tempo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:onClick="onCheckboxClicked"
+                android:text="Tempo" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="*Leave the entry if you are not one of above checkbox"/>
+
+
+            <Button android:layout_width="190dp"
+                android:layout_height="38dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="16dp"
+                android:id="@+id/autosubmitBtn"
+                android:text="submit"
+                android:textColor="#fff"
+                android:background="@drawable/btn"
+                android:onClick="collectData"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+
+            >
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</ScrollView>

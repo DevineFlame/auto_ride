@@ -11,8 +11,10 @@ urlpatterns = [
     url(r'^test/$', views.test,name='test'), 
     url(r'^user_signup/$', views.user_signup,name='user_signup'),
     url(r'^auto_driver_signup/$', views.auto_driver_signup,name='auto_driver_signup'),
-    url(r'^login/$', views.login,name='login'),
-    url(r'^user_notify_driver/$', views.user_notify_driver,name='user_notify_driver'),
-    url(r'^driver_notify_user/$', views.driver_notify_user,name='driver_notify_user'),
+    url(r'^login/$', views.login,name='login'),  
+    url(r'^get_notifications/$', views.get_notifications,name='get_notifications'),
+    url(r'^update_notifications/$', views.update_notifications,name='update_notifications'),
+    url(r'^driver_reply/$', views.driver_reply,name='driver_reply'),
+
 
 ]
